@@ -25,7 +25,7 @@
     <div class="content">
       <h2 class="content-title">Recent Articles</h2>
       <hr><!-- more content still to come here ... -->
-
+<div class="posts-all">
 <!-- Add this ... -->
 <?php foreach ($posts as $post): ?>
 	<div class="post" style="margin-left: 0px;">
@@ -48,8 +48,9 @@
 			</div>
 		</a>
 	</div>
-<?php endforeach ?>
 
+<?php endforeach ?>
+</div>
     </div><!-- // Page content -->
     <!-- footer -->
  <?php include(ROOT_PATH . '/includes/footer.php') ?>
